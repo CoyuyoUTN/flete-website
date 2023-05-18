@@ -1,5 +1,3 @@
-import "wowjs/css/libs/animate.css";
-
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
