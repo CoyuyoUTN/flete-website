@@ -15,12 +15,23 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@react-icons/all-files": "^4.1.0",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.3",
     "gatsby": "^5.9.0",
     "gatsby-plugin-image": "^3.9.0",
     "gatsby-plugin-sharp": "^5.9.0",
     "gatsby-source-filesystem": "^5.9.0",
     "gatsby-transformer-sharp": "^5.9.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "react-icons": "^4.8.0",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^11.7.5",
+    "sweetalert2-react-content": "^5.0.7",
+    "wowjs": "^1.1.3"
   }
 }

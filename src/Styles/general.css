@@ -1,0 +1,12 @@
+.container-general{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:aliceblue;
+}
+
+@media (max-width: 990px) {
+    .container-general{
+        gap: 20px;
+    }
+  }
