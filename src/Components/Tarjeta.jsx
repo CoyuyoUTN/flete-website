@@ -1,10 +1,13 @@
 import * as React from "react";
 import "../Styles/tarjeta.css";
 import Galeria from "./Galeria";
+import ServicesBanner from "./servicesBanner";
 
 
 const Tarjeta = () =>{
     return(
+        <>
+        <ServicesBanner/>
         <div id="services" >        
         <div className="body-cards">
         <ol>
@@ -28,7 +31,8 @@ const Tarjeta = () =>{
     </div>
     <Galeria />
     <p className="p-gallery">Tambien realizamos traslados de corta y larga distancia - Consulte presupuesto.</p>
-        </div>)
+        </div>
+        </>)
 }
 
 export default Tarjeta;

@@ -3,6 +3,8 @@ import "../Styles/footer.css"
 import { TfiLocationPin } from "react-icons/tfi";
 import { BsCalendarCheck } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
+import { SiInstagram } from "react-icons/si";
+import { MdOutlineFacebook } from "react-icons/md";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import img from "../images/map.jpg"
@@ -50,6 +52,12 @@ const Footer = () => {
       <div className="dataCommerce-footer">
         <p>
           <BsWhatsapp /> Tel: 223-5044992
+        </p>
+         <p> 
+          <SiInstagram/> <a href="https://www.instagram.com/mini_fletes_mardelplata/?hl=es">Instagram</a> 
+         </p>
+         <p>
+          <MdOutlineFacebook/> <a href="https://www.facebook.com/facundo.herrero.9250/about">Facebook</a>  
         </p>
       </div>
     </footer>
