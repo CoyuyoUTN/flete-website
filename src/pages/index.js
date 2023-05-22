@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavbarResponsive from "../Components/NavbarResponsive";
 import Main from "../Components/Main";

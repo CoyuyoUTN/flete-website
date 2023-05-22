@@ -50,7 +50,7 @@ const Contact = () => {
     <section className="form">
       <form className="form__container" onSubmit={handleSubmit(onSubmit)}>
         <div className="form__input-section">
-          <label>
+          <label htmlFor="name">
             <h2 className="form__input-title">Nombre:</h2>
           </label>
           <input
@@ -77,7 +77,7 @@ const Contact = () => {
         )}
 
         <div className="form__input-section">
-          <label>
+          <label htmlFor="inputEmail">
             <h2 className="form__input-title">Email:</h2>
           </label>
           <input

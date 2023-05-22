@@ -29,7 +29,7 @@ const NavbarResponsive =()=> {
                   <Nav.Link className="links" href="#Nosotros">Inicio</Nav.Link>
                   <Nav.Link className="links" href="#Nosotros">Nosotros</Nav.Link>
                   <Nav.Link className="links" href="#services">Nuestros servicios</Nav.Link>
-                  <Nav.Link className="links" href="#precio">Pida presupuesto</Nav.Link>
+                  <Nav.Link className="links" href="#contact-id">Pida presupuesto</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

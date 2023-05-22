@@ -3,7 +3,7 @@ import "../Styles/banner.css"
 
 const ContactBanner = () => {
   return (
-    <div className='banner' id='precio'>
+    <div className='banner'id="contact-id">
       <h2 className='banner-h2' >Contáctenos</h2>
     </div>
   );
